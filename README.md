@@ -196,27 +196,74 @@ The framework is organized into multiple layers, each responsible for specific t
   - **Model**: Lightweight models for real-time inference.
 - **Final Output**: Delivers results to users or external systems.
 
----
-
 ## Use Cases
 
-### 1. Smart Cities
-- **Traffic Optimization**: Use MARL to optimize traffic light timings.
-- **Energy Distribution**: Use federated learning to balance energy consumption across regions.
-
-### 2. Disaster Response
-- **Coordination**: Use hierarchical RL to coordinate relief efforts.
-- **Resource Allocation**: Use predictive modeling to allocate medical supplies.
-
-### 3. Supply Chain Optimization
-- **Logistics**: Use GNNs to model supply chain networks.
-- **Inventory Management**: Use reinforcement learning to optimize stock levels.
-
-### 4. Healthcare
-- **Disease Prediction**: Use Bayesian inference to predict outbreaks.
-- **Resource Allocation**: Use RL to allocate hospital beds.
+The AI Agent Swarm Framework is highly versatile and can be applied to a wide range of domains, addressing complex challenges through its hierarchical structure, distributed intelligence, and adaptive mechanisms. Below are detailed use cases demonstrating its application across various industries:
 
 ---
+
+### 1. Smart Cities
+
+Modern cities face numerous challenges in managing resources, infrastructure, and services efficiently. The AI Agent Swarm Framework offers innovative solutions to optimize urban operations.
+
+#### Traffic Optimization
+- **Challenge**: Urban congestion leads to increased travel times, pollution, and economic losses.
+- **Solution**: Use **Multi-Agent Reinforcement Learning (MARL)** to dynamically optimize traffic light timings based on real-time traffic conditions. Agents collaborate to minimize congestion at intersections and improve overall traffic flow.
+- **Outcome**: Reduced commute times, lower emissions, and improved quality of life for residents.
+
+#### Energy Distribution
+- **Challenge**: Balancing energy consumption across regions is critical to prevent blackouts and minimize waste.
+- **Solution**: Leverage **federated learning** to train localized models that predict energy demand and adjust supply in real time. Data remains decentralized, ensuring privacy and compliance with regulations.
+- **Outcome**: Efficient energy distribution, reduced waste, and enhanced grid resilience during peak loads or disruptions.
+
+---
+
+### 2. Disaster Response
+
+Disasters such as hurricanes, earthquakes, and pandemics require rapid and coordinated responses. The framework's hierarchical structure ensures effective decision-making under pressure.
+
+#### Coordination
+- **Challenge**: Relief efforts often suffer from fragmented communication and lack of coordination across regions.
+- **Solution**: Use **hierarchical reinforcement learning (RL)** to coordinate actions across multiple tiers (e.g., local responders, regional leaders, and national agencies). The King sets overarching goals, while Nobles and Workers execute tasks at regional and local levels.
+- **Outcome**: Streamlined relief operations, faster response times, and better resource utilization.
+
+#### Resource Allocation
+- **Challenge**: Allocating medical supplies, personnel, and equipment efficiently during emergencies is critical to saving lives.
+- **Solution**: Employ **predictive modeling** to forecast resource needs based on disaster severity, population density, and historical data. Agents dynamically allocate resources to areas with the greatest need.
+- **Outcome**: Optimized allocation of critical resources, minimizing shortages and improving disaster recovery outcomes.
+
+---
+
+### 3. Supply Chain Optimization
+
+Global supply chains are complex and prone to disruptions. The framework's distributed intelligence ensures resilience and efficiency in logistics and inventory management.
+
+#### Logistics
+- **Challenge**: Optimizing transportation routes and warehouse operations is essential to reduce costs and improve delivery times.
+- **Solution**: Use **Graph Neural Networks (GNNs)** to model supply chain networks and identify optimal routes, taking into account factors like traffic, weather, and fuel costs. Agents continuously monitor and adapt to changing conditions.
+- **Outcome**: Reduced transportation costs, faster deliveries, and improved customer satisfaction.
+
+#### Inventory Management
+- **Challenge**: Maintaining optimal stock levels across multiple locations without overstocking or understocking is a persistent challenge.
+- **Solution**: Apply **reinforcement learning (RL)** to optimize stock levels dynamically. Agents analyze demand forecasts, lead times, and supplier performance to balance inventory across regions.
+- **Outcome**: Lower holding costs, minimized stockouts, and improved supply chain resilience.
+
+---
+
+### 4. Healthcare
+
+Healthcare systems must respond effectively to outbreaks, manage resources, and deliver timely care. The framework supports these objectives through predictive analytics and intelligent resource allocation.
+
+#### Disease Prediction
+- **Challenge**: Early detection of disease outbreaks is crucial to implementing preventive measures and mitigating spread.
+- **Solution**: Use **Bayesian inference** to analyze patterns in healthcare data (e.g., symptoms, hospital admissions) and predict outbreaks. Agents continuously update predictions as new data becomes available.
+- **Outcome**: Timely public health interventions, reduced spread of diseases, and better resource planning.
+
+#### Resource Allocation
+- **Challenge**: During emergencies (e.g., pandemics or natural disasters), hospitals often face shortages of beds, ventilators, and personnel.
+- **Solution**: Deploy **reinforcement learning (RL)** to allocate critical resources dynamically. Agents prioritize patients based on severity, location, and available capacity, ensuring equitable distribution.
+- **Outcome**: Improved patient outcomes, reduced strain on healthcare systems, and efficient use of limited resources.
+
 
 ## Implementation Details
 
@@ -310,76 +357,6 @@ The framework leverages **Edge Computing** to optimize performance in distribute
 
 Example: Use **uncertainty quantification** to assess confidence intervals in disaster response predictions.
 
-
-## Use Cases
-
-The AI Agent Swarm Framework is highly versatile and can be applied to a wide range of domains, addressing complex challenges through its hierarchical structure, distributed intelligence, and adaptive mechanisms. Below are detailed use cases demonstrating its application across various industries:
-
----
-
-### 1. Smart Cities
-
-Modern cities face numerous challenges in managing resources, infrastructure, and services efficiently. The AI Agent Swarm Framework offers innovative solutions to optimize urban operations.
-
-#### Traffic Optimization
-- **Challenge**: Urban congestion leads to increased travel times, pollution, and economic losses.
-- **Solution**: Use **Multi-Agent Reinforcement Learning (MARL)** to dynamically optimize traffic light timings based on real-time traffic conditions. Agents collaborate to minimize congestion at intersections and improve overall traffic flow.
-- **Outcome**: Reduced commute times, lower emissions, and improved quality of life for residents.
-
-#### Energy Distribution
-- **Challenge**: Balancing energy consumption across regions is critical to prevent blackouts and minimize waste.
-- **Solution**: Leverage **federated learning** to train localized models that predict energy demand and adjust supply in real time. Data remains decentralized, ensuring privacy and compliance with regulations.
-- **Outcome**: Efficient energy distribution, reduced waste, and enhanced grid resilience during peak loads or disruptions.
-
----
-
-### 2. Disaster Response
-
-Disasters such as hurricanes, earthquakes, and pandemics require rapid and coordinated responses. The framework's hierarchical structure ensures effective decision-making under pressure.
-
-#### Coordination
-- **Challenge**: Relief efforts often suffer from fragmented communication and lack of coordination across regions.
-- **Solution**: Use **hierarchical reinforcement learning (RL)** to coordinate actions across multiple tiers (e.g., local responders, regional leaders, and national agencies). The King sets overarching goals, while Nobles and Workers execute tasks at regional and local levels.
-- **Outcome**: Streamlined relief operations, faster response times, and better resource utilization.
-
-#### Resource Allocation
-- **Challenge**: Allocating medical supplies, personnel, and equipment efficiently during emergencies is critical to saving lives.
-- **Solution**: Employ **predictive modeling** to forecast resource needs based on disaster severity, population density, and historical data. Agents dynamically allocate resources to areas with the greatest need.
-- **Outcome**: Optimized allocation of critical resources, minimizing shortages and improving disaster recovery outcomes.
-
----
-
-### 3. Supply Chain Optimization
-
-Global supply chains are complex and prone to disruptions. The framework's distributed intelligence ensures resilience and efficiency in logistics and inventory management.
-
-#### Logistics
-- **Challenge**: Optimizing transportation routes and warehouse operations is essential to reduce costs and improve delivery times.
-- **Solution**: Use **Graph Neural Networks (GNNs)** to model supply chain networks and identify optimal routes, taking into account factors like traffic, weather, and fuel costs. Agents continuously monitor and adapt to changing conditions.
-- **Outcome**: Reduced transportation costs, faster deliveries, and improved customer satisfaction.
-
-#### Inventory Management
-- **Challenge**: Maintaining optimal stock levels across multiple locations without overstocking or understocking is a persistent challenge.
-- **Solution**: Apply **reinforcement learning (RL)** to optimize stock levels dynamically. Agents analyze demand forecasts, lead times, and supplier performance to balance inventory across regions.
-- **Outcome**: Lower holding costs, minimized stockouts, and improved supply chain resilience.
-
----
-
-### 4. Healthcare
-
-Healthcare systems must respond effectively to outbreaks, manage resources, and deliver timely care. The framework supports these objectives through predictive analytics and intelligent resource allocation.
-
-#### Disease Prediction
-- **Challenge**: Early detection of disease outbreaks is crucial to implementing preventive measures and mitigating spread.
-- **Solution**: Use **Bayesian inference** to analyze patterns in healthcare data (e.g., symptoms, hospital admissions) and predict outbreaks. Agents continuously update predictions as new data becomes available.
-- **Outcome**: Timely public health interventions, reduced spread of diseases, and better resource planning.
-
-#### Resource Allocation
-- **Challenge**: During emergencies (e.g., pandemics or natural disasters), hospitals often face shortages of beds, ventilators, and personnel.
-- **Solution**: Deploy **reinforcement learning (RL)** to allocate critical resources dynamically. Agents prioritize patients based on severity, location, and available capacity, ensuring equitable distribution.
-- **Outcome**: Improved patient outcomes, reduced strain on healthcare systems, and efficient use of limited resources.
-
----
 
 ### Why This Framework Works Across Domains
 
