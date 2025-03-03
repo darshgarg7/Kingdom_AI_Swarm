@@ -397,7 +397,9 @@ Create a feature branch (git checkout -b feature/your-feature).
 Commit your changes (git commit -m "Add your feature").  
 Push to the branch (git push origin feature/your-feature).  
 Open a pull request.  
-Please ensure your code adheres to our coding standards and includes appropriate documentation.  
+Please ensure your code adheres to coding standards and includes appropriate documentation.  
+
+Examples of contributions:  
 
 ```
 Extending the Framework  
