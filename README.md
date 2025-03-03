@@ -265,48 +265,50 @@ The framework is organized into multiple layers, each responsible for specific t
 
 
 ### Getting Started
-- **Prerequisites**
-Python 3.x
-Libraries: PyTorch, TensorFlow, or other ML frameworks for model training.
-Message queues (e.g., RabbitMQ) for inter-agent communication.
+- **Prerequisites**  
+
+Python 3.x  
+Libraries: PyTorch, TensorFlow, or other ML frameworks for model training.  
+Message queues (e.g., RabbitMQ) for inter-agent communication.  
 Graph databases (e.g., Neo4j) for relationship modeling.  
 
-Installation
-Clone the repository:
-git clone https://github.com/Kingdom_AI_Swarm/ai-agent-swarm.git
-cd ai-agent-swarm
-Install dependencies:
-pip install -r requirements.txt
-Running the Framework
-Start the preprocessing module:
-python preprocessing.py
-Launch the main swarm:
-python swarm.py
-Extending the Framework
-Adding New Components
-Define new subgraphs in the Mermaid diagram to represent additional layers or modules.
-Implement custom logic in Python for new functionalities.
-Customizing Policies
+- **Installation**  
+Clone the repository:  
+git clone https://github.com/Kingdom_AI_Swarm/ai-agent-swarm.git  
+cd ai-agent-swarm  
+Install dependencies:  
+pip install -r requirements.txt  
+Running the Framework  
+Start the preprocessing module:  
+python preprocessing.py  
+Launch the main swarm:  
+python swarm.py  
+
+Extending the Framework  
+Adding New Components  
+Define new subgraphs in the Mermaid diagram to represent additional layers or modules.  
+Implement custom logic in Python for new functionalities.  
+Customizing Policies  
 Modify escalation protocols, role assignments, and security measures to suit your application.
-Integrating Advanced Models
+Integrating Advanced Models  
 Replace lightweight models with more sophisticated architectures (e.g., GNNs, LLMs) for specific tasks.
 
 ### Contributing
 
-- **I welcome contributions to enhance the AI Agent Swarm Framework! Here's how you can help:**
+- **I welcome contributions to enhance the AI Agent Swarm Framework! Here's how you can help:**  
 
-Fork the repository.
-Create a feature branch (git checkout -b feature/your-feature).
-Commit your changes (git commit -m "Add your feature").
-Push to the branch (git push origin feature/your-feature).
-Open a pull request.
-Please ensure your code adheres to our coding standards and includes appropriate documentation.
+Fork the repository.  
+Create a feature branch (git checkout -b feature/your-feature).  
+Commit your changes (git commit -m "Add your feature").  
+Push to the branch (git push origin feature/your-feature).  
+Open a pull request.  
+Please ensure your code adheres to our coding standards and includes appropriate documentation.  
 
 ### License
-- This project is licensed under the MIT License . See the LICENSE file for details.
+- This project is licensed under the MIT License . See the LICENSE file for details.  
 
 ### Contact
-- **For questions or feedback, please contact:**
+- **For questions or feedback, please contact:**  
 
-Email: darsh.garg@gmail.com
-GitHub: darshgarg7
+Email: darsh.garg@gmail.com  
+GitHub: darshgarg7  
