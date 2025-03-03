@@ -400,25 +400,16 @@ Message queues (e.g., RabbitMQ) for inter-agent communication.
 Graph databases (e.g., Neo4j) for relationship modeling.  
 
 - **Installation**  
-Clone the repository:  
-git clone https://github.com/Kingdom_AI_Swarm/ai-agent-swarm.git  
-cd ai-agent-swarm  
-Install dependencies:  
-pip install -r requirements.txt  
-Running the Framework  
-Start the preprocessing module:  
-python preprocessing.py  
-Launch the main swarm:  
-python swarm.py  
 
-Extending the Framework  
-Adding New Components  
-Define new subgraphs in the Mermaid diagram to represent additional layers or modules.  
-Implement custom logic in Python for new functionalities.  
-Customizing Policies  
-Modify escalation protocols, role assignments, and security measures to suit your application.
-Integrating Advanced Models  
-Replace lightweight models with more sophisticated architectures (e.g., GNNs, LLMs) for specific tasks.
+1. Clone the repository:  
+   git clone https://github.com/Kingdom_AI_Swarm/ai-agent-swarm.git  
+   cd ai-agent-swarm  
+2. 
+   pip install -r requirements.txt
+
+   **running the framework**
+- python preprocessing.py
+- python swarm.py
 
 ### Contributing
 
@@ -430,6 +421,17 @@ Commit your changes (git commit -m "Add your feature").
 Push to the branch (git push origin feature/your-feature).  
 Open a pull request.  
 Please ensure your code adheres to our coding standards and includes appropriate documentation.  
+
+```
+Extending the Framework  
+Adding New Components  
+Define new subgraphs in the Mermaid diagram to represent additional layers or modules.  
+Implement custom logic in Python for new functionalities.  
+Customizing Policies  
+Modify escalation protocols, role assignments, and security measures to suit your application.
+Integrating Advanced Models  
+Replace lightweight models with more sophisticated architectures (e.g., GNNs, LLMs) for specific tasks.
+```
 
 ### License
 - This project is licensed under the MIT License . See the LICENSE file for details.  
