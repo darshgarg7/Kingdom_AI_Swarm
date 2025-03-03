@@ -144,3 +144,20 @@ graph TD
         DataSynchronization --> ModelDistillation
     end
 ```
+
+The AI Agent Swarm workflow begins by processing user input , which is preprocessed and passed to a distributed leadership hierarchy consisting of the King , Council of Advisors , and Nobles .  
+- The King sets the overarching vision, while the Council of Advisors collaborates on strategic decisions, translating the King’s vision into actionable plans.  
+- Nobles oversee regional task delegation, ensuring tasks are distributed effectively to Workers for execution.  
+
+At the execution level, Workers operate autonomously using:  
+
+- Local optimization to adapt dynamically to their environment.  
+- Peer collaboration to solve problems collectively.  
+- Edge computing for localized processing, reducing latency and optimizing resource usage.  
+
+Continuous feedback loops refine decision-making in real-time:
+
+- Feedback from task execution, security monitoring, and historical analysis informs data-driven insights .  
+- Mechanisms like federated learning , threat detection , and crisis management tiers ensure scalability , adaptability , and resilience across all levels.  
+- Finally, outputs are generated based on task execution, with feedback continuously improving strategies to handle future challenges.  
+
