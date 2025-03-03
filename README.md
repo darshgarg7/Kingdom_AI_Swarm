@@ -269,7 +269,8 @@ The framework is organized into multiple layers, each responsible for specific t
 Python 3.x
 Libraries: PyTorch, TensorFlow, or other ML frameworks for model training.
 Message queues (e.g., RabbitMQ) for inter-agent communication.
-Graph databases (e.g., Neo4j) for relationship modeling.
+Graph databases (e.g., Neo4j) for relationship modeling.  
+
 Installation
 Clone the repository:
 git clone https://github.com/Kingdom_AI_Swarm/ai-agent-swarm.git
