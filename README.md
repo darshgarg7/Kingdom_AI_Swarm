@@ -82,7 +82,7 @@ The framework is organized into multiple layers, each responsible for specific t
   - **Role**: Nobles act as semi-independent leaders, optimizing regional performance.
   - **Algorithm**: Hierarchical RL for multi-tier decision-making.
 - **Workers**: Executes tasks and provides real-time feedback.
-  - **Model**: Lightweight models (e.g., distilled versions of larger models) for efficiency.
+  - **Model**: MAML to adapt dynamically and a Graph Neural Network (GNN) for modeling agent interactions.
 
 ### 3. Self-Optimizing Layer
 - **Local Autonomy**: Workers make localized decisions without waiting for higher-level instructions.
