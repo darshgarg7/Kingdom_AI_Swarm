@@ -10,18 +10,15 @@ The **AI Agent Kingdom Swarm Framework** is a modular, scalable, and adaptive ar
 
 1. [Architecture Overview](#architecture-overview)
 2. [Detailed Workflow](#detailed-workflow)
-3. [Components](#components)
-4. [Algorithms and Models](#algorithms-and-models)
-5. [Use Cases](#use-cases)
-6. [Implementation Details](#implementation-details)
-7. [Scalability Mechanisms](#scalability-mechanisms)
-8. [Security Layer](#security-layer)
-9. [Feedback Loop and Continuous Learning](#feedback-loop-and-continuous-learning)
-10. [Edge Computing and Uncertainty Handling](#edge-computing-and-uncertainty-handling)
-11. [Getting Started](#getting-started)
-12. [Extending the Framework](#extending-the-framework)
-13. [Contributing](#contributing)
-14. [License](#license)
+3. [Use Cases](#use-cases)
+4. [Implementation Details](#implementation-details)
+5. [Scalability Mechanisms](#scalability-mechanisms)
+6. [Security Layer](#security-layer)
+7. [Feedback Loop and Continuous Learning](#feedback-loop-and-continuous-learning)
+8. [Edge Computing and Uncertainty Handling](#edge-computing-and-uncertainty-handling)
+9. [Getting Started](#getting-started)
+10. [Contributing](#contributing)
+11. [License](#license)
 
 ---
 
