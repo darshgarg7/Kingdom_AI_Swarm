@@ -379,7 +379,7 @@ python --version
 
 1. Clone the repository:  
    git clone https://github.com/Kingdom_AI_Swarm/ai-agent-swarm.git  
-   cd ai-agent-swarm  
+   cd src  
 2. 
    pip install -r requirements.txt
 
