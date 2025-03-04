@@ -1,0 +1,16 @@
+numpy
+pandas
+scikit-learn
+tensorflow
+torch
+stable-baselines3
+networkx
+fastapi
+uvicorn
+neo4j
+spacy
+transformers
+pettingzoo
+statsmodels
+pgmpy
+shap
