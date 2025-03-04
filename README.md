@@ -47,6 +47,10 @@ The framework is organized into multiple layers, each responsible for specific t
   - **Code Example**:
     ```python
     import spacy
+    from transformers import pipeline
+
+    response = self.generator(prompt, max_length=50)
+    scenario = response[0]['generated_text']
 
     nlp = spacy.load("en_core_web_sm")
     def preprocess_input(text):
