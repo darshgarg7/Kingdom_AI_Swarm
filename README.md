@@ -57,10 +57,10 @@ The framework is organized into multiple layers, each responsible for specific t
 
 ### 2. Distributed Leadership
 - **King**: Sets the overarching vision and resolves high-level conflicts.
-  - **Algorithm**: Uses a high-level LLM (e.g., GPT-4) to generate strategic goals.
+  - **Algorithm**: Uses Hierarchical Reinforcement Learning (HRL) to generate strategic goals.
   - **Code Example**:
     ```python
-    from transformers import pipeline
+    from stable_baselines3 import PPO
 
     generator = pipeline("text-generation", model="gpt-4")
     vision = generator("Create a long-term strategy for disaster response.")
@@ -70,12 +70,9 @@ The framework is organized into multiple layers, each responsible for specific t
   - **Code Example**:
     ```python
     from pettingzoo.mpe import simple_spread_v2
-
-    env = simple_spread_v2.parallel_env()
-    env.reset()
-    for agent in env.agents:
-        action = policy[agent](env.observe(agent))
-        env.step({agent: action})
+    
+    self.high_level_policy = PPO("MlpPolicy", "HighLevelEnv", verbose=1)
+    self.high_level_policy.learn(total_timesteps=total_timesteps)
     ```
 - **Nobles**: Oversees regional operations and delegates tasks to Workers.
   - **Role**: Nobles act as semi-independent leaders, optimizing regional performance.
