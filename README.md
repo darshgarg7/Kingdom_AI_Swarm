@@ -370,10 +370,10 @@ The AI Agent Swarm Framework excels in addressing complex, dynamic, and distribu
 ### Getting Started
 - **Prerequisites**  
 
-Python 3.x  
-Libraries: PyTorch, TensorFlow, or other ML frameworks for model training.  
-Message queues (e.g., RabbitMQ) for inter-agent communication.  
-Graph databases (e.g., Neo4j) for relationship modeling.  
+Python 3.x  (check)
+```
+python --version
+```
 
 - **Installation**  
 
@@ -502,16 +502,15 @@ Please ensure your code adheres to coding standards and includes appropriate doc
 
 Examples of contributions:  
 
-```
-Extending the Framework  
-Adding New Components  
-Define new subgraphs in the Mermaid diagram to represent additional layers or modules.  
-Implement custom logic in Python for new functionalities.  
-Customizing Policies  
-Modify escalation protocols, role assignments, and security measures to suit your application.
-Integrating Advanced Models  
-Replace lightweight models with more sophisticated architectures (e.g., GNNs, LLMs) for specific tasks.
-```
+- Extending the Framework  
+- Adding New Components  
+- Define new subgraphs in the Mermaid diagram to represent additional layers or modules.  
+- Implement custom logic in Python for new functionalities.  
+- Customizing Policies  
+- Modify escalation protocols, role assignments, and security measures to suit your application.
+- Integrating Advanced Models  
+- Replace lightweight models with more sophisticated architectures (e.g., GNNs, LLMs) for specific tasks.
+
 
 ### License
 - This project is licensed under the MIT License . See the LICENSE file for details.  
