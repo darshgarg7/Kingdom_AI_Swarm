@@ -387,6 +387,7 @@ python --version
 - python preprocessing.py
 - python swarm.py
 
+  
 - **Recommended (Using DevContainer)**  
 
 1. Clone the repository:  
@@ -399,9 +400,9 @@ python --version
 4. Run the Dockerfile  
    docker run -it --rm Kingdom_AI_Swarm  
 
-   **running the framework**
-  - python preprocessing.py
-  - python swarm.py
+   **running the framework** (make sure to run: **cd src** )  
+  - python preprocessing.py  
+  - python swarm.py  
 
 ### Testing
 
