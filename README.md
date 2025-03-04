@@ -357,7 +357,7 @@ The framework leverages **Edge Computing** to optimize performance in distribute
 Example: Use **uncertainty quantification** to assess confidence intervals in disaster response predictions.
 
 
-### Why This Framework Works Across Domains
+### This Framework Works Across Domains
 
 The AI Agent Swarm Framework excels in addressing complex, dynamic, and distributed problems due to its:
 
@@ -386,6 +386,22 @@ python --version
    **running the framework**
 - python preprocessing.py
 - python swarm.py
+
+- **Recommended (Using DevContainer)**  
+
+1. Clone the repository:  
+   git clone https://github.com/Kingdom_AI_Swarm/ai-agent-swarm.git  
+   cd devcontainer  
+   
+2. Ensure Docker Desktop is running  
+3. Build the Dockerfile  
+   docker build -t ai-agent-swarm .  
+4. Run the Dockerfile  
+   docker run -it --rm Kingdom_AI_Swarm  
+
+   **running the framework**
+  - python preprocessing.py
+  - python swarm.py
 
 ### Testing
 
