@@ -396,7 +396,7 @@ python --version
    
 2. Ensure Docker Desktop is running  
 3. Build the Dockerfile  
-   docker build -t ai-agent-swarm .  
+   docker build -t Kingdom_AI_Swarm 
 4. Run the Dockerfile  
    docker run -it --rm Kingdom_AI_Swarm  
 
