@@ -57,7 +57,7 @@ The framework is organized into multiple layers, each responsible for specific t
 
 ### 2. Distributed Leadership
 - **King**: Sets the overarching vision and resolves high-level conflicts.
-  - **Algorithm**: Uses Hierarchical Reinforcement Learning (HRL) to generate strategic goals.
+  - **Algorithm**: Uses Hierarchical Reinforcement Learning (HRL) plus the high-level GPT 4 LLM to generate strategic goals.
   - **Code Example**:
     ```python
     from stable_baselines3 import PPO
