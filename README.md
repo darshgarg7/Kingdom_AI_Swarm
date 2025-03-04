@@ -43,7 +43,7 @@ The framework is organized into multiple layers, each responsible for specific t
 
 ### 1. Input Processing
 - **Preprocessing**: Cleans and tokenizes input data for further processing.
-  - **Technologies**: Use libraries like `spaCy` or `NLTK` for natural language preprocessing.
+  - **Technologies**: Use libraries like `spaCy` or `NLTK` for natural language preprocessing. Also uses GPT-4 LLM to generate realistic scenarios dynamically.
   - **Code Example**:
     ```python
     import spacy
