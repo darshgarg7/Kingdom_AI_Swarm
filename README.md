@@ -397,10 +397,10 @@ python --version
 2. Ensure Docker Desktop is running
 3. In VSCode, cmd + shift + P and build & reopen in container.  
    ( optional:  
-Build the Dockerfile  
-   docker build -t ai-agent-swarm .
-Run the Dockerfile  
-   docker run -it --rm ai-agent-swarm
+Build the Dockerfile:  
+   docker build -t ai-agent-swarm .  
+Run the Dockerfile:  
+   docker run -it --rm ai-agent-swarm  
     )  
 
    **running the framework** (make sure to run: **cd src** )  
