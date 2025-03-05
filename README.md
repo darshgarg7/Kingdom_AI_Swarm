@@ -403,9 +403,9 @@ Run the Dockerfile:
    docker run -it --rm ai-agent-swarm  
     )  
 
-   **running the framework** (make sure to run: **cd src** )  
-  - python preprocessing.py  
-  - python swarm.py  
+   **running the framework** 
+  - python -m src.preprocessing  
+  - python -m src.swarm.  
 
 ### Testing
 
