@@ -379,13 +379,16 @@ python --version
 
 1. Clone the repository:  
    git clone https://github.com/Kingdom_AI_Swarm/ai-agent-swarm.git  
-   cd src  
+   cd devcontainer  
 2. 
-   pip install -r requirements.txt
-
-   **running the framework**
-- python preprocessing.py
-- python swarm.py
+   pip install -r requirements.txt  
+3.  
+   cd ..  
+   cd src  
+4.  
+   **running the framework**  
+- python -m preprocessing.py  
+- python -m swarm.py  
 
   
 - **Recommended (Using DevContainer)**  
