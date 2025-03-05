@@ -398,7 +398,7 @@ python --version
 3. Build the Dockerfile  
    docker build -t ai-agent-swarm .
 4. Run the Dockerfile  
-   docker run -it --rm Kingdom_AI_Swarm  
+   docker run -it --rm ai-agent-swarm  
 
    **running the framework** (make sure to run: **cd src** )  
   - python preprocessing.py  
