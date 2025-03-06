@@ -388,7 +388,7 @@ python --version
 4.  
    **running the framework**  
 - python -m preprocessing.py  
-- python -m swarm.py  
+- python -m main.py  
 
   
 - **Recommended (Using DevContainer)**  
@@ -408,7 +408,7 @@ Run the Dockerfile:
 
    **running the framework** 
   - python -m src.preprocessing  
-  - python -m src.swarm.  
+  - python -m src.main  
 
 ### Testing
 
