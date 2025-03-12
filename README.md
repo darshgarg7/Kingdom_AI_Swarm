@@ -6,7 +6,7 @@ The **AI Agent Kingdom Swarm Framework** is a modular, scalable, and adaptive ar
 
 ---
 
-** Take a look at: **  
+**Take a look at:**  
 https://medium.com/@darsh.garg/revolutionizing-distributed-intelligence-for-scalable-systems-f795a9a30999  
 
   for more info :)  
